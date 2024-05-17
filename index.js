@@ -1,6 +1,6 @@
 "use strict";
 
-const logoWriter = require("./lib/logoWriter");
+const logoWriter = require("./lib/logo_writer");
 const menu = require("./lib/menu");
 
 async function main() {
