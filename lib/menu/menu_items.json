@@ -1,0 +1,29 @@
+[
+  {
+    "name": "View",
+    "subMenu": [
+      "View All Employees",
+      "View All Roles",
+      "View All Departments",
+      "View Employees by Manager",
+      "View Employees by Department",
+      "View Total Utilized Budget of a Department"
+    ]
+  },
+  {
+    "name": "Add",
+    "subMenu": ["Add Employee", "Add Role", "Add Department"]
+  },
+  {
+    "name": "Update",
+    "subMenu": ["Update Employee Role", "Update Employee Manager"]
+  },
+  {
+    "name": "Delete",
+    "subMenu": ["Delete Employee", "Delete Role", "Delete Department"]
+  },
+  {
+    "name": "Exit",
+    "subMenu": []
+  }
+]
