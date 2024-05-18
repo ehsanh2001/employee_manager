@@ -19,7 +19,7 @@ async function appLoop(menu, menuHandler) {
   } while (mainMenu !== "Exit");
 }
 
-async function asycMain() {
+async function main() {
   try {
     const dbAccess = new db.DbAccess();
     await dbAccess.testDb();
@@ -36,4 +36,4 @@ async function asycMain() {
   }
 }
 
-asycMain();
+main();
