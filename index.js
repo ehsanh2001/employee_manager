@@ -1,10 +1,10 @@
 "use strict";
 
 const logoWriter = require("./lib/logo_writer");
-const { Menu, CascadingMenu } = require("./lib/menu");
+const { CascadingMenu } = require("./lib/menu");
 const db = require("./lib/db_access");
 const inquirer = require("inquirer");
-const MenuHandler = require("./lib/menu_handler/menu_Handler");
+const MenuHandler = require("./lib/menu_handler");
 const menuItems = require("./lib/menu/menu_items.json");
 
 // The main loop of the application
@@ -31,7 +31,7 @@ async function main() {
 
     await dbAccess.end();
   } catch (error) {
-    console.error("Error in function asyncMain" + error);
+    console.error("Error in function main" + error);
     console.log(error);
   }
 }
