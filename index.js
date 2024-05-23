@@ -24,7 +24,7 @@ async function main() {
     const dbAccess = new db.DbAccess();
     await dbAccess.testDb();
 
-    const menu = new CascadingMenu(menuItems, "Employee Tracker");
+    const menu = new CascadingMenu(menuItems, "Employee Manager");
     const menuHandler = new MenuHandler(dbAccess);
 
     await appLoop(menu, menuHandler);
