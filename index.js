@@ -31,7 +31,7 @@ async function main() {
 
     await dbAccess.end();
   } catch (error) {
-    console.error("Error in function main" + error);
+    console.error(error.message);
     console.log(error);
   }
 }
