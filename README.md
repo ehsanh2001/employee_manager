@@ -10,7 +10,7 @@ A command-line application to manage a company's employee database. It can strea
 npm install
 ```
 
-2. Create and seed the database by run these sql files
+2. Create and seed a postgreSQL database by run these sql files
 
 - ./sql_scripts/create_db.sql
 - ./sql_scripts/seeds.sql
